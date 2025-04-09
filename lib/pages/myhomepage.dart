@@ -36,12 +36,8 @@ class _MyHomePageState extends State<MyHomePage> {
          
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            ClipRRect(
-              borderRadius: BorderRadius.circular(20.0),//Adjust the radius as needed
-              child: Image.asset(
-                '../assets/images/57dd9f12164251a3ada0db00e6e6cbe4.png',fit:BoxFit.cover, height:400, width:400)
-            ),
-            const SizedBox(height: 20), // Add some space between the image and the text
+           Image.asset("../assets/images/91236d7f-fb3f-4b80-ac09-ff6e1097686f.jpeg", width: 500, height: 400,),
+            TextWidget(displaytext: 'press 10 times to load our website', styleVariant: 'title', displayText: 'press 10 times to load our website',),
             TextWidget(displaytext: '$_counter', styleVariant: 'subtitle', displayText: '',),
              Text(
               '$_counter',
