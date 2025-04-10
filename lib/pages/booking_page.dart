@@ -23,7 +23,7 @@ class _BookingPageState extends State<BookingPage> {
 
     // Show success message after booking
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text('Booking successful!')),
+      SnackBar(content: Text('Booking was successful!')),
     );
   }
 
