@@ -31,6 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+        6-icons
             // Step 2: Row to place icons side by side with circular borders around each
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -75,6 +76,16 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             TextWidget(displaytext: '$_counter', styleVariant: 'subtitle', displayText: ''),
             Text(
+
+            ClipRRect(
+              borderRadius: BorderRadius.circular(20.0),//Adjust the radius as needed
+              child: Image.asset(
+                '../assets/images/57dd9f12164251a3ada0db00e6e6cbe4.png',fit:BoxFit.cover, height:400, width:400)
+            ),
+            const SizedBox(height: 20), // Add some space between the image and the text
+            TextWidget(displaytext: '$_counter', styleVariant: 'subtitle', displayText: '',),
+             Text(
+       main
               '$_counter',
               style: TextStyle(fontSize: 36, color: Colors.amber, fontWeight: FontWeight.bold),
             ),
