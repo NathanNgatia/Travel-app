@@ -46,7 +46,7 @@ class _BookingPageState extends State<BookingPage> {
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: SizedBox(
-              width: double.infinity,
+              width: 200,
               height: 50,
               child: ElevatedButton(
                 onPressed: isLoading ? null : _handleBooking,
