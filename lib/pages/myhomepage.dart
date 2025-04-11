@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 '../assets/images/57dd9f12164251a3ada0db00e6e6cbe4.png',fit:BoxFit.cover, height:400, width:400)
             ),
             const SizedBox(height: 20), // Add some space between the image and the text
-            TextWidget(displaytext: '$_counter', styleVariant: 'subtitle', displayText: '',),
+            TextWidget(displaytext: '$_counter', styleVariant: 'subtitle', displayText: 'Lempuyang Temple',),
              Text(
               '$_counter',
               style: TextStyle(fontSize:36,color: Colors.amber,fontWeight: FontWeight.bold),),
